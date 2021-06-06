@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.box1{
+    
+    background-color: rgba(153, 153, 153, 0.116);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;  
+    padding-bottom: 5%; 
+    align-items: center;
+}
+
+.rog{
+  /* Location of the image */
+background: url(../images/login_bg.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height: 100%;
+  min-width: 100%;
+position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Courgette', cursive;
+}
+   
+.head{
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+.field{
+    border-radius: 10px !important;
+    border: none !important;
+}
+.Login_button{
+ background-color: black !important;
+ border: none !important;
+ padding-left: 10% !important;
+ padding-right: 10% !important;
+ border-radius: 10px !important;
+}
+.Login_button:hover{
+    background-color: rgb(109, 109, 109) !important;
+}
+.Login_checkbox{
+    border: none !important;
+    
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px !important;
+    border: none solid #000000 !important;
+    border-top-left-radius: .25rem !important;
+    border-top-right-radius: .25rem !important;
+    color: black !important;
+}
